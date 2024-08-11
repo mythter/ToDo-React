@@ -1,0 +1,29 @@
+.toDoList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.toDoList .searchPanel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.toDoList .toDoListItems {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 10px;
+}
+
+.toDoList .emptyList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

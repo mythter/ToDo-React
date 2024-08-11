@@ -1,0 +1,19 @@
+.neonCircleContainer{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.neonCircleContainer .neonCircle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    min-height: 10px;
+}

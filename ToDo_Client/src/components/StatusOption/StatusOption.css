@@ -1,0 +1,30 @@
+.statusOption {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.statusOption .statusIndicator{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.statusIndicator .statusColor {
+    border-radius: 50%;
+    background: #b42d2d;
+    box-shadow: 0 0 8px #f23c3c;
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+.statusOption .statusTitle {
+    color: #fff;
+    font-size: 16px;
+}

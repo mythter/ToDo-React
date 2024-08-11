@@ -1,0 +1,17 @@
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.modalContent .errorMessage {
+    height: 20px;
+    color: red;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.modalContent .errorMessage:first-of-type {
+    margin-bottom: 5px;
+}
